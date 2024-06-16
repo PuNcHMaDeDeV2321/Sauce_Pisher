@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#otp-form {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.otp-inputs {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    margin: 0 auto;
+}
+
+.otp-inputs input {
+    width: 10px;
+    padding: 5px 0;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+input {
+    width: 10px;
+}
+
+.otp-inputs input:focus {
+    outline: none;
+    border-color: #0064df;
+    box-shadow: 0 0 5px #0064df;
+}
+
+#otp-form button {
+    width: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0095f6;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#otp-form button:hover {
+    background-color: #b2dffc;
+}
+
+#loader {
+    display: none;
+    margin-top: 100px;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}

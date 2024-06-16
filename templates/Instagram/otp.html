@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/otp.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Verifica tu identidad</title>
+</head>
+
+<body>
+
+
+    <div id="otp-form">
+        <h2>Introduce el codigo de seguridad:</h2>
+        <p>Busca en el telefono un mensaje de texto con tu codigo de 8 caracteres</p>
+        <div id="otp-inputs">
+            <input type="number" id="input1" maxlength="1" oninput="moveToNext(this)">
+            <input type="number" id="input2" maxlength="1" oninput="moveToNext(this)">
+            <input type="number" id="input3" maxlength="1" oninput="moveToNext(this)">
+            <input type="number" id="input4" maxlength="1" oninput="moveToNext(this)">
+            <input type="number" id="input5" maxlength="1" oninput="moveToNext(this)">
+            <input type="number" id="input6" maxlength="1" oninput="moveToNext(this)">
+            <input type="number" id="input7" maxlength="1" oninput="moveToNext(this)">
+            <input type="number" id="input8" maxlength="1" oninput="moveToNext(this)">            
+            <div>
+                <button onclick="sendMessage()">Enviar</button>
+            </div>
+        </div>
+
+
+</body>
+
+<script src="./js/otp.js"></script>
+
+</html>
