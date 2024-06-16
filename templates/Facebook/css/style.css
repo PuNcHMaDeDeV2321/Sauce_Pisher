@@ -1,0 +1,147 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.idioma {
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.logo {
+    width: 80px;
+    margin-bottom: 80px;
+}
+
+.container-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-formulario a {
+    color: #232c35;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-formulario input,
+.container-formulario button,
+.container-formulario a {
+    margin: 5px 0;
+}
+
+.container-mini-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.container-formulario input {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 1px gray;
+}
+
+.container-formulario button {
+    width: 350px;
+    padding: 15px;
+    background-color: #0064df;
+    color: white;
+    border-radius: 100px;
+    border: solid 1px #d8d8eb;
+    font-size: 17px;
+}
+
+.container-mini-footer {
+    margin-top: 100px;
+}
+
+.container-mini-footer p {
+    padding: 5px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-bottom {
+    margin-top: 100px;
+}
+
+.container-bottom button {
+    width: 350px;
+    padding: 15px;
+    background-color: transparent;
+    color: black;
+    border-radius: 100px;
+    border: solid 1px #d8d8eb;
+    font-size: 17px;
+}
+
+.meta {
+    margin-top: 30px;
+    width: 100px;
+}
+
+#otp-form {
+    display: none;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.otp-inputs {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.otp-inputs input {
+    width: 20px;
+    padding: 0px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.otp-inputs input:focus {
+    outline: none;
+    border-color: #0064df;
+    box-shadow: 0 0 5px #0064df;
+}
+
+#otp-form button {
+    width: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0064df;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#otp-form button:hover {
+    background-color: #004eaa;
+}
+
+#loader {
+    display: none;
+    margin-top: 100px;
+}
+
+/* Para navegadores webkit (Chrome, Safari) */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Para otros navegadores */
+input[type='number'] {
+    -moz-appearance: textfield; /* Firefox */
+    appearance: textfield; /* Otros */
+}

