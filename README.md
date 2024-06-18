@@ -1,5 +1,3 @@
-<h1 align="center" color="red">Sauce_Pisher</h1>
-
 <h1 align="center">Disclaimer</h1>
 
 <i>Any actions and or activities related to <strong>Sauce_Phisher</strong> is solely your responsibility. The misuse of this toolkit can result in <b>criminal charges</b> brought against the persons in question. <b>The contributors will not be held responsible</b> in the event any criminal charges be brought against any individuals misusing this toolkit to break the law.
@@ -14,8 +12,7 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 
 
 ### Installation
-
-- Clone repository -
-  ```
-  git clone --depth=1 https://github.com/PuNcHMaDeDeV2321/Sauce_Pisher
-  ```
+Clone repository
+```
+git clone --depth=1 https://github.com/PuNcHMaDeDeV2321/Sauce_Pisher
+```
