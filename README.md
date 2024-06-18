@@ -10,9 +10,13 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 
 ##
 
-
 ### Installation
 Clone repository
 ```
 git clone --depth=1 https://github.com/PuNcHMaDeDeV2321/Sauce_Pisher
+```
+
+### Usage
+```
+python main.py
 ```
