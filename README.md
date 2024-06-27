@@ -16,7 +16,16 @@ Clone repository
 git clone --depth=1 https://github.com/PuNcHMaDeDeV2321/Sauce_Pisher
 ```
 
+### Set the bot
+For the pishing to work we need to create a telegram bot with @BotFather and provide in the file inside the js folder, the token of your bot. The same with the chat ID you get with @GetMyIdBot.
+```
+var botToken = 'YOUR BOT TOKEN HERE';
+var chatId = 'YOUR CHAT ID HERE';
+```
+
 ### Usage
 ```
 python main.py
 ```
+
+
